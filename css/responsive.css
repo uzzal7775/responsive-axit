@@ -1,0 +1,217 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+.card{
+  width: auto;
+  margin-left: 25px;
+  
+}
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+
+span.mobileBtn i {
+    color: white;
+}
+.bannerContent p{
+  width: auto;
+}
+.card{
+  width: auto;
+  margin-left: 25px;
+
+}
+
+  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+span.mobileBtn i {
+    color: white;
+}
+.bannerContent p{
+  width: auto;
+}
+.card{
+  width: auto;
+  margin-left: 25px;
+  margin-top: -180px;
+}
+.bannerContent {
+    text-align: center;
+}
+.line{
+  margin: 32px auto;
+}
+.bannerContent h2{
+  font-size: 22px;
+  line-height: 35px;
+}
+
+section.socilIcon{
+  padding: 40px 0;
+}
+.socilTaitle{
+  text-align: center;
+}
+.socilTaitle p{
+  width: auto;
+}
+.IconList.IconListb {
+    margin: 0px 0px;
+}
+
+.IconList ul a {
+  margin-left: auto;
+}
+.IconList ul a i{
+  font-size: 20px;
+  padding: 9px;
+}
+.feture .Tab{
+  width: 109px;
+}
+ul.feture li {
+  display: inline-block;
+}
+section#features .col-md-6 {
+  text-align: center;
+  margin-top: 20px;
+}
+section#features .col-md-4 img {
+  margin-top: 50px;
+}
+section#sublist .row {
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.subtitle .sline {
+  margin: 32px auto;
+}
+.subtitle p{
+  width: auto;
+  font-size: 16px;
+}
+section#sublist {
+  padding: 50px 0;
+}
+.Simg {
+  margin-bottom: 15px;
+}
+.sContent p {
+  font-size: 16px;
+}
+.subtitle h2 {
+  margin-top: -13px;
+}
+
+section.picture {
+  padding: 50px 0;
+  text-align: center;
+}
+.picturetitle .pline {
+  margin: 32px auto;
+}
+.picturetitle p {
+  width: auto;
+  padding: 0px 5px;
+}
+.awesomeTitle p {
+  font-size: 18px;
+}
+.row.bottomm {
+  margin-top: 16px;
+}
+section.awesome{
+  padding: 80px 0;
+}
+.option p{
+  font-size: 17px;
+}
+section#priching {
+  padding: 70px 0px;
+}
+.row.taBle .col-md-4 {
+    margin-left: 12px;
+}
+section.testimonial {
+  padding: 80px 0;
+}
+.userDetails .col-md-3{
+  text-align: left;
+  width: 30%;
+}
+.userDetails .col-md-9{
+  width: 70%;
+}
+.col-md-4.cmt {
+  margin-bottom: 30px;
+}
+section.conTact{
+  padding: 90px 0;
+}
+.stylishTitle h2 {
+    font-size: 30px;
+}
+.awesomeTitle h2 {
+    font-size: 26px;
+}
+.socilTaitle h2 {
+    font-size: 30px;
+}
+}
